@@ -4,4 +4,5 @@ RUN apt-get update
 RUN apt-get install -y binutils
 RUN apt-get install -y gcc
 RUN apt-get install -y less
+RUN apt-get install -y make
 WORKDIR /work
